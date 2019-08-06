@@ -1,0 +1,48 @@
+html, body{
+    height:100%;
+}
+#header{
+    width:100%;
+}
+
+#header .img{
+    width:100%;
+    height:35em;
+}
+.icon{
+    width:100px; 
+    height:100px;
+}
+
+#main{
+    flex:1;
+}
+
+#main> .row, #main-menu{
+    height:100%;
+}
+
+#main > .row{
+    margin-right:0;
+}
+
+#main-menu .nav-link{
+    color:#fff;
+}
+#main-menu .nav-link.active{
+    background-color:#343a40;
+    border:2px solid #B5405C;
+}
+#content{
+    padding-top:20px;
+}
+
+.perfil{
+    width:100px;
+    height:100px;    
+    
+}
+trix-editor{
+    min-height:350px;
+    padding:1em;
+}
