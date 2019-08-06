@@ -11,7 +11,7 @@
     }elseif(resolve('/admin/pokemon/create')){  
         if($_SERVER['REQUEST_METHOD'] === 'POST'){
             $pokemon_create();        
-            header('location: /admin/pokemon');
+            header('location: /admin/pokemons');
         }
         
         $types = $types_all();

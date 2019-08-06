@@ -6,16 +6,16 @@
                 <dd class="col-sm-8 ">
                     <img class="perfil mb-5"
                     src="/upload/icon/<?php echo $data['pokemon']['photoPerfil']; ?>" 
-                    alt="Foto do <?php echo $data['pokemon']['name']; ?>">
+                    alt="Foto do <?php echo utf8_encode($data['pokemon']['name']); ?>">
                  </dd>
                 <dt class="col-sm-4">Nome</dt>
-                <dd class="col-sm-8"><?php echo $data['pokemon']['name']; ?></dd>
+                <dd class="col-sm-8"><?php echo utf8_encode($data['pokemon']['name']); ?></dd>
 
                 <dt class="col-sm-4">Tipo</dt>
                 <dd class="col-sm-8">
                     <?php foreach($data['types'] as $type):?>
                         <?php if($data['pokemon']['type'] === $type['id']):?>
-                            <?php echo $type['type']; ?>
+                            <?php echo utf8_encode($type['type']); ?>
                         <?php endif; ?>
                     <?php endforeach;?> 
                 <?php echo $data['pokemon']['type']; ?></dd>

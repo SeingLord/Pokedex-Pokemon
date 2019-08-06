@@ -14,9 +14,7 @@
     }elseif (resolve('/admin/upload/image')) {
         $file = $_FILES['file'] ?? null;
         if (!$file) {
-            http_response_code(422);
-            echo 'nenhum arquivo enviado';
-            exit;
+            header('location: /admin/pokemons');
         }
 
         $allowedType =[

@@ -17,7 +17,8 @@
       <span class="input-group-text">Foto principal</span>
     </div>
     <div class="custom-file">
-      <input type="file" class="custom-file-input" id="photo" name="photoPerfil">
+      <input type="file" class="custom-file-input" id="photo" name="photoPerfil"
+        required>
       <label class="custom-file-label" for="customFile" >Escolha um imagem</label>
     </div>  
     

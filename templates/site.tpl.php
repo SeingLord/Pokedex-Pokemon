@@ -11,7 +11,7 @@
 </head>
 <body>
 <header id="header">
-    <img class="img" src="/img/arceus.jpg" alt="Imagem do pokémon criador">
+    <img class="img" src="/img/thumb.jpg" alt="Imagem do pokémon criador">
     <nav class="navbar navbar-dark bg-dark">
         <a class="text-white" href="/">Pokedex</a>
     </nav>

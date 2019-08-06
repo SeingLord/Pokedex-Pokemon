@@ -33,7 +33,7 @@
                     <a href="/pokemon/<?php echo $pokemon['url']; ?>">
                         <?php foreach($data['types'] as $type):?>
                             <?php if($pokemon['type'] === $type['id']):?>
-                                <?php echo $type['type']; ?>
+                                <?php echo utf8_encode($type['type']); ?>
                             <?php endif; ?>
                         <?php endforeach;?> 
                     </a>
